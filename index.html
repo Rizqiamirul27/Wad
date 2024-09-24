@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Profil Amirul Rizqi Nugroho</title>
+    <title>Profil Pribadi</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -13,113 +13,78 @@
         }
 
         table {
-            width: 100%;
-            height: 100vh;
+            width: 60%;
+            margin: 50px auto;
             border-collapse: collapse;
+            background-color: #fff;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
         }
 
-        td {
-            padding: 20px;
+        td, th {
+            padding: 15px;
+            border: 1px solid #ddd;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
         }
 
         .profile-pic {
             text-align: center;
-            vertical-align: top;
         }
 
         .profile-pic img {
             border-radius: 50%;
-            width: 120px;
-            height: 120px;
-            background-color: #FFC0CB;
+            width: 100px;
+            height: 100px;
         }
 
-        .bio-left {
+        h2 {
             text-align: center;
-            vertical-align: top;
+            font-size: 24px;
+            margin-bottom: 20px;
         }
-
-        .bio-left h3 {
-            margin: 10px 0 5px;
-        }
-
-        .bio-right {
-            vertical-align: top;
-            text-align: left;
-        }
-
-        .bio-right p {
-            margin: 5px 0;
-        }
-
-        .education {
-            text-align: center;
-            vertical-align: top;
-        }
-
-        .education ul {
-            list-style-type: none;
-            padding: 0;
-            margin: 0;
-        }
-
-        .education ul li {
-            margin: 5px 0;
-        }
-
-        .footer {
-            background-color: #d2e1ff;
-        }
-
-        td.profile-left {
-            width: 30%;
-            background-color: #f9f9f9;
-        }
-
-        td.profile-right {
-            width: 70%;
-            background-color: #f9f9f9;
-        }
-
     </style>
 </head>
 <body>
 
-    <table>
-        <!-- Bagian Profil Kiri -->
-        <tr>
-            <td class="profile-left" rowspan="2">
-                <div class="profile-pic">
-                    <img src="https://via.placeholder.com/120" alt="Foto Profil">
-                </div>
-                <div class="bio-left">
-                    <h3>Amirul Rizqi Nugroho</h3>
-                    <p>saya amirul rizqi nugroho<br>mahasiswa sistem informasi<br>telkom university yang<br>tertarik dengan pemrograman<br>web dan UI/UX</p>
-                </div>
-            </td>
+    <h2>Profil Pribadi</h2>
 
-            <!-- Bagian Biodata Kanan -->
-            <td class="profile-right">
-                <div class="bio-right">
-                    <p><strong>Nama:</strong> Amirul Rizqi Nugroho</p>
-                    <p><strong>Email:</strong> rizqiamirul@gmail.com</p>
-                    <p><strong>No Telp:</strong> 081931669422</p>
-                    <p><strong>Alamat:</strong> Perumahan Buah Batu </p>
-                </div>
+    <table>
+        <tr>
+            <th colspan="2" class="profile-pic">
+                <img src="https://via.placeholder.com/100" alt="Foto Profil">
+            </th>
+        </tr>
+        <tr>
+            <th>Nama</th>
+            <td>Amirul Rizqi Nugroho</td>
+        </tr>
+        <tr>
+            <th>Email</th>
+            <td>27rizqiamirul@gmail.com</td>
+        </tr>
+        <tr>
+            <th>No. Telepon</th>
+            <td>081931669422</td>
+        </tr>
+        <tr>
+            <th>Alamat</th>
+            <td>Perumahan Buah Batu Blok D-52</td>
+        </tr>
+        <tr>
+            <th>Riwayat Pendidikan</th>
+            <td>
+                <ul>
+                    <li>SDN Sampang 01</li>
+                    <li>SMP Sampang 02</li>
+                </ul>
             </td>
         </tr>
-
-        <!-- Bagian Riwayat Pendidikan -->
         <tr>
-            <td class="profile-right footer">
-                <div class="education">
-                    <h4>Riwayat Pendidikan</h4>
-                    <ul>
-                        <li>SDN Sampang 01</li>
-                        <li>SMP Sampang 02</li>
-                    </ul>
-                </div>
-            </td>
+            <th>Deskripsi Singkat</th>
+            <td>Saya adalah mahasiswa Sistem Informasi di Telkom University dengan minat dalam pemrograman web dan desain UI/UX.</td>
         </tr>
     </table>
 
